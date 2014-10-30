@@ -14,23 +14,27 @@
         android:layout_height="wrap_content">
 
         <RadioGroup
+            android:id="@+id/radioGroup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_centerHorizontal="true">
 
             <RadioButton
+                android:id="@+id/redRB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/red"
                 android:checked="true"/>
 
             <RadioButton
+                android:id="@+id/whiteRB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/white"/>
 
             <RadioButton
+                android:id="@+id/blueRB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/blue"/>
@@ -46,18 +50,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/set_color"
-            android:layout_toLeftOf="@+id/cancel"/>
+            android:layout_toLeftOf="@+id/cancel"
+            android:onClick="setColor"/>
         <Button
             android:id="@+id/cancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/cancel"
             android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"/>
+            android:layout_alignParentRight="true"
+            android:onClick="clearTextView"/>
 
     </RelativeLayout>
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
