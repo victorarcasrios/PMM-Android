@@ -45,8 +45,17 @@ public class Actividad2 extends ActionBarActivity implements View.OnClickListene
     @Override
     public void onClick(View v) {
         if(v.getId() == R.id.backToFirstScreen){
-            setResult(RESULT_OK, new Intent());
-            finish();
+            goBack();
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        goBack();
+    }
+
+    public void goBack(){
+        setResult(RESULT_OK, new Intent());
+        finish();
     }
 }
