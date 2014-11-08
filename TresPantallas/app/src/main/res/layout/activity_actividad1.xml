@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.victorarcasrios.trespantallas.Actividad1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/firstScreenTV"
+        android:text="@string/first_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45px"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/toSecondScreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/second_screen"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/toThirdScreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/third_screen"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</LinearLayout>

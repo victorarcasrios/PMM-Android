@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TresPantallas</string>
+    <string name="action_settings">Configuración</string>
+    <string name="first_screen">Pantalla 1</string>
+    <string name="second_screen">Pantalla 2</string>
+    <string name="third_screen">Pantalla 3</string>
+    <string name="title_activity_actividad2">Actividad2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_actividad3">Actividad3</string>
+    <string name="back_from">vuelta de la</string>
+
+</resources>

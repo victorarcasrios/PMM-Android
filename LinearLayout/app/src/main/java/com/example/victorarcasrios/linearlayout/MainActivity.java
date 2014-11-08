@@ -19,7 +19,7 @@ public class MainActivity extends ActionBarActivity {
 
     private HashMap colors = new HashMap<Integer, Integer>(){{
         put(R.id.redRB, Color.RED);
-        put(R.id.whiteRB, Color.WHITE);
+        put(R.id.greenRB, Color.GREEN);
         put(R.id.blueRB, Color.BLUE);
     }};
 
@@ -63,6 +63,6 @@ public class MainActivity extends ActionBarActivity {
 
     public void clearTextView(View view){
         TextView textView = (TextView)findViewById(R.id.textView);
-        textView.setBackgroundColor(Color.LTGRAY);
+        textView.setBackgroundColor(Color.WHITE);
     }
 }
