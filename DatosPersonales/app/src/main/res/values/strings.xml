@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DatosPersonales</string>
+    <string name="action_settings">Configuración</string>
+    <string name="selectPrompt">Elige una persona</string>
+    <string name="title_activity_personal_data">PersonalData</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
