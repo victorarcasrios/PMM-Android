@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DrawMeThis</string>
+    <string name="action_settings">Configuración</string>
+    <string name="spinner_prompt">Elige una figura</string>
+    <string name="draw_it">Dibújalo</string>
+    <string name="enter_circle_radio">Introduce el radio</string>
+    <string name="enter_rectangle_base">Introduce la base</string>
+    <string name="enter_rectangle_height">Introduce la altura</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
