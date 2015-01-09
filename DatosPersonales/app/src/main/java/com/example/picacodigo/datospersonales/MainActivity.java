@@ -19,12 +19,17 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final String[] names = {"Pepe", "Paco", "Pedro", "Pablo"};
+        final Person[] people = {
+                new Person("Victor", 22),
+                new Person("Paco", 54),
+                new Person("Adrian", 26),
+                new Person("Agustin", 39)
+        };
 
         spinnerHasBeenUsed = false;
 
         final Spinner select = (Spinner)findViewById(R.id.select);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, names);
+        PersonAdapter adapter = new PersonAdapter(this, android.R.layout.simple_spinner_item, people);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
         select.setAdapter(adapter);
 
